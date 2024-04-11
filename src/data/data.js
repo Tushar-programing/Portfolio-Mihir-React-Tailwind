@@ -1,5 +1,5 @@
 import { AiFillAppstore } from "react-icons/ai";
-import {  FaBrain} from "react-icons/fa";
+// import {  FaBrain} from "react-icons/fa";
 import { SiProgress} from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { MdAnalytics } from "react-icons/md";
@@ -8,37 +8,32 @@ import { MdAnalytics } from "react-icons/md";
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    title: "MERN stack Development",
+    des: "I can built complete MERN Stack Web app.",
   },
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    title: "React App Development",
+    des: "I can built react app",
   },
   {
     id: 3,
     icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Will learn this soon in near future !",
+    title: "Javascript(node.js) development",
+    des: "I can built Api with node.js",
   },
   {
     id: 4,
-    icon: <CgWebsite />,
+    icon: <MdAnalytics />,
     title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
+    des: "Want to gain real-life experience of Web Development Project.",
   },
   {
     id: 5,
-    icon: <MdAnalytics />,
-    title: "Data Analyst",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
+    icon: <CgWebsite />,
+    title: "Data Structure and Algorithim",
+    des: "Currently progressing on Data Structure and Algorithim Skills.",
   },
-  {
-    id: 6,
-    icon: <FaBrain />,
-    title: "Machine Learning",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
-  },
+  
 ];

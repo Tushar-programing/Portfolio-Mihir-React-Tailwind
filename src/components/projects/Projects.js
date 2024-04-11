@@ -17,47 +17,47 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="IPL-Win-Predictor"
-          des=" A ML project using logistic regression to find out the win probability of the chasing team in an IPL match. Used Kaggle dataset from 2008-2019."
+          title="Sign-up user with MERN Stack"
+          des=" I was built full stack project to signup the user and send thankyou message with node.js or react.js."
           src={projectOne}
-          githubLink="https://github.com/mihirc0111/IPL-Predictor-Mihir"
-          websiteLink="https://mihirc0111-ipl-predictor-mihir-app-8s1ct4.streamlit.app/"
+          githubLink="https://github.com/Tushar-programing/project2"
+          websiteLink="https://project-register-user.vercel.app/"
 
         />
         <ProjectsCard
-          title="Mi-Blog-Van"
-          des=" This is a blog website have a EJS, Node & Express as backend and Mongoose & MongoDB database."
+          title="Wheather application"
+          des=" This is a weather application to show the data with city name or pin code built in react.js."
           src={projectTwo}
-          githubLink="https://github.com/mihirc0111/Mi-Blog-Van"
-          websiteLink="https://mihirs-blog-website.onrender.com/"
+          githubLink="https://github.com/Tushar-programing/weather-Application"
+          websiteLink="https://weather-application-omega-roan.vercel.app/"
         />
         <ProjectsCard
-          title="Secret Sharing Website"
-          des=" This is a website for posting secrets anonymously with an authentication system ."
+          title="E-commerce Dynamic Website"
+          des=" This is a React.js E-commerce web app with features list-item, update item, add-to-cart, address."
           src={projectThree}
-          githubLink="https://github.com/mihirc0111/Secrets"
-          websiteLink="https://mihirs-secrets-sharing-website.onrender.com/"
+          githubLink="https://github.com/Tushar-programing/e-com"
+          websiteLink="https://e-com-one-lime.vercel.app/"
         />
         <ProjectsCard
-          title="After School Diaries"
-          des=" To create a website which plays Cartoon/Show songs' audio when user clicks on a particular cartoon image. Using HTML,CSS,JS,Bootstrap to bundle the songs we loved during our childhood!"
+          title="Multi-step-form website with react.js"
+          des=" This project get User idea with multi step form in react.js. I was create it to showcase only react.js."
           src={projectFour}
-          githubLink="https://github.com/mihirc0111/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website"
-          websiteLink="https://mihirc0111.github.io/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website/"
+          githubLink="https://github.com/Tushar-programing/-multiStepForm"
+          websiteLink="https://multi-step-form-puce-tau.vercel.app/"
         />
         <ProjectsCard
-          title="Weather Website"
-          des=" This is a weather website created using HTML,CSS,Bootstrap,Node.js,Express.js and OpenWeather API ."
+          title="Random code/password Generator"
+          des=" This is a random code or passowrd generator by this we get custom code like string size, special character, numbers, is allowed or not."
           src={projectFive}
-          githubLink="https://github.com/mihirc0111/Weather-Website-UsingAPI--node.js--express.js"
-          websiteLink="https://mihirs-weather-website.onrender.com/"
+          githubLink="https://github.com/Tushar-programing/Password-generator"
+          websiteLink="https://password-generator-lyart-sigma.vercel.app/"
         />
         <ProjectsCard
-          title="Face Detection"
-          des=" This project uses various libraries like to detect human face from a given image, detect a face from a live -webcam video and to create an attendance system."
+          title="Sign-up user backend "
+          des=" This is a backend project with node.js to store user data and update user detail like location, profile-image, purpose of user."
           src={projectSix}
-          githubLink="https://github.com/mihirc0111/Face-Detection-ML-Project-Python.git"
-          websiteLink=""
+          githubLink="https://github.com/Tushar-programing/register-backend"
+          websiteLink="https://register-backend-12k4.onrender.com/"
         />
       </div>
     </section>
